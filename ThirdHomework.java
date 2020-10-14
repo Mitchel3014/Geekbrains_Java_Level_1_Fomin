@@ -33,6 +33,7 @@ public class ThirdHomework {
         Random random = new Random();
         int x = random.nextInt(range);
         int k;
+        System.out.println("Угадайте число от 0 до " + range);
         for (int i = 0; i < 3; i++) {
             //System.out.println("Угадайте число от 0 до " + range);
             System.out.println("Введите число");
