@@ -60,7 +60,7 @@ public class SecondHomework {
         int [] [] doubleArray = new int [4] [4];
         for (int i = 0; i < 4; i++) {
             for (int j = 0; j < 4; j++) {
-                doubleArray [i] [j] = 1;
+                doubleArray [i] [4-i-1] = 1;
             System.out.print(doubleArray[i] [j] + " ");
             }
             System.out.println();
