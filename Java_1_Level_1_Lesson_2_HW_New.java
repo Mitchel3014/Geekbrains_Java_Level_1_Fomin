@@ -8,21 +8,27 @@ public class Java_1_Level_1_Lesson_2_HW_New {
         int [] array_3 = {1, 5, 3, 2, 11, 4, 5, 2, 4, 8, 9, 1};
         int [] array_4 = {0, 5, 3, 2, 11, 4, 5, 2, 4, 8, 9, 1, 50};
 
+        System.out.println("Пункт задания №1 часть 1. Создание массива");
         array_1 = firstArray (10, 2);
-        System.out.println(Arrays.toString(array_1));
+        System.out.println(Arrays.toString(array_1)+ "\n");
 
+        System.out.println("Пункт задания №1 часть 2. Замена элементов массива с 0 на 1 и с 1 на 0");
         changeArray (array_1);
-        System.out.println(Arrays.toString(array_1));
+        System.out.println(Arrays.toString(array_1)+ "\n");
 
+        System.out.println("Пункт задания №2. Создаем массив размера 8 и заполняем его значениями 0 3 6 9 12 15 18 21");
         array_2 = fillArray (8);
-        System.out.println(Arrays.toString(array_2));
+        System.out.println(Arrays.toString(array_2)+ "\n");
 
-        System.out.println(Arrays.toString(array_3));//Массив до приращения
+        System.out.println("Пункт задания №3. Проход по массиву и увеличение чисел менее 6 на 2");
+        System.out.println("Массив до приращения:" + "\n" + Arrays.toString(array_3)+ "\n");//Массив до приращения
         increasingArray (array_3);//Приращение
-        System.out.println(Arrays.toString(array_3));//Массив после приращения
+        System.out.println("Массив после приращения:" + "\n" + Arrays.toString(array_3)+ "\n");//Массив после приращения
 
+        System.out.println("Пункт задания №4. Заполнение диагоналей");
         fillDiagonal(8);
 
+        System.out.println("\n" + "Пункт задания №5. Находим в массиве минимальный и максимальный элементы");
         find_min_max (array_4);
 
     }
@@ -85,7 +91,7 @@ public class Java_1_Level_1_Lesson_2_HW_New {
         int max = arr_3[0];//Задаем начальный максимум в виде первого элемента массива
         int min = arr_3[0];//Задаем начальный минимум в виде первого элемента массива
         int k;//Задаем переменную для присваивания значений элементов массива
-        System.out.println(Arrays.toString(arr_3));//Выводим массив
+        System.out.println("Выводим массив:" + "\n" + Arrays.toString(arr_3));//Выводим массив
 
         for (int i = 0; i < arr_3.length; i++) {
             k = arr_3[i];//Присваиваем переменной k значение i-го элемента массива
