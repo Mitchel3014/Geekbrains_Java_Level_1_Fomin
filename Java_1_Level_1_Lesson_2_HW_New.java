@@ -21,7 +21,7 @@ public class Java_1_Level_1_Lesson_2_HW_New {
         System.out.println(Arrays.toString(array_2)+ "\n");
 
         System.out.println("Пункт задания №3. Проход по массиву и увеличение чисел менее 6 на 2");
-        System.out.println("Массив до приращения:" + "\n" + Arrays.toString(array_3)+ "\n");//Массив до приращения
+        System.out.println("Массив до приращения:" + "\n" + Arrays.toString(array_3));//Массив до приращения
         increasingArray (array_3);//Приращение
         System.out.println("Массив после приращения:" + "\n" + Arrays.toString(array_3)+ "\n");//Массив после приращения
 
