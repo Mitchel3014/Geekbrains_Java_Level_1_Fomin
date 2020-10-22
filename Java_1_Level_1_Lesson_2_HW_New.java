@@ -1,5 +1,11 @@
 import java.util.Arrays;//Импортируем библиотеку util для использования метода toString, чтобы красиво выводить массив
 
+/**
+ * Java. Level 1. Lesson 2. Homework 2
+ * @author Artem Fomin
+ * @version dated 22.10.2020
+ */
+
 public class Java_1_Level_1_Lesson_2_HW_New {
     public static void main (String [] args) {
 
