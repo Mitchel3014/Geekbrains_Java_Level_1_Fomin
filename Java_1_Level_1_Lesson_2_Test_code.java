@@ -1,6 +1,12 @@
 import java.util.ArrayList;
 import java.util.Arrays;//Импортируем библиотеку util для использования метода toString, чтобы красиво выводить массив
 
+/**
+ * Java. Level 1. Lesson 2. Test_code
+ * @author Artem Fomin
+ * @version dated 22.10.2020
+ */
+
 public class Java_1_Level_1_Lesson_2_Test_code {
     public static void main (String [] args) {
 
