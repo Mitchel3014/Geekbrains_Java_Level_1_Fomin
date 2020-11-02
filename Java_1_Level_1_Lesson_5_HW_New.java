@@ -1,3 +1,9 @@
+/**
+ * Java. Level 1. Lesson 5. Homework 5 New version
+ * @author Artem Fomin
+ * @version dated 02.11.2020
+ */
+
 public class Java_1_Level_1_Lesson_5_HW_New {
     public static void main (String [] args) {
         Worker [] workers = new Worker [6];
