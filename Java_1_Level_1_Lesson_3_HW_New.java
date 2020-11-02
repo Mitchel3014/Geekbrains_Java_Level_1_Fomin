@@ -2,7 +2,7 @@ import java.util.Random;
 import java.util.Scanner;
 
 /**
- * Java. Level 1. Lesson 2. Homework 3 New version
+ * Java. Level 1. Lesson 3. Homework 3 New version
  * @author Artem Fomin
  * @version dated 26.10.2020
  */
