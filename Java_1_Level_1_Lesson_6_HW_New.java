@@ -1,5 +1,5 @@
 /**
- * Java. Level 1. Lesson 6. Homework 5 New version
+ * Java. Level 1. Lesson 6. Homework 6 New version
  * @author Artem Fomin
  * @version dated 06.11.2020
  */
